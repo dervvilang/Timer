@@ -3,7 +3,6 @@ import time
 from colorama import init, Fore
 import os
 
-# Объект блокировки для синхронизации вывода в консоль
 lock = threading.Lock()
 
 def timer_function(name, interval):
